@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		828868E6199984AD0044DA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828868E5199984AD0044DA96 /* Foundation.framework */; };
+		828868E8199984AD0044DA96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828868E7199984AD0044DA96 /* CoreGraphics.framework */; };
+		828868EA199984AD0044DA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828868E9199984AD0044DA96 /* UIKit.framework */; };
+		828868EC199984AD0044DA96 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828868EB199984AD0044DA96 /* SpriteKit.framework */; };
+		828868F2199984AD0044DA96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 828868F0199984AD0044DA96 /* InfoPlist.strings */; };
+		828868F4199984AD0044DA96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 828868F3199984AD0044DA96 /* main.m */; };
+		828868F8199984AD0044DA96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 828868F7199984AD0044DA96 /* AppDelegate.m */; };
+		828868FB199984AD0044DA96 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828868F9199984AD0044DA96 /* Main_iPhone.storyboard */; };
+		828868FE199984AD0044DA96 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828868FC199984AD0044DA96 /* Main_iPad.storyboard */; };
+		82886901199984AD0044DA96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82886900199984AD0044DA96 /* ViewController.m */; };
+		82886904199984AD0044DA96 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 82886903199984AD0044DA96 /* MyScene.m */; };
+		82886906199984AD0044DA96 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 82886905199984AD0044DA96 /* Spaceship.png */; };
+		82886908199984AD0044DA96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82886907199984AD0044DA96 /* Images.xcassets */; };
+		8288690F199984AE0044DA96 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8288690E199984AE0044DA96 /* XCTest.framework */; };
+		82886910199984AE0044DA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828868E5199984AD0044DA96 /* Foundation.framework */; };
+		82886911199984AE0044DA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828868E9199984AD0044DA96 /* UIKit.framework */; };
+		82886919199984AE0044DA96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82886917199984AE0044DA96 /* InfoPlist.strings */; };
+		8288691B199984AE0044DA96 /* atlas_comparisonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288691A199984AE0044DA96 /* atlas_comparisonTests.m */; };
+		828869271999860F0044DA96 /* ring.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 828869261999860F0044DA96 /* ring.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82886912199984AE0044DA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 828868DA199984AD0044DA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828868E1199984AD0044DA96;
+			remoteInfo = "atlas-comparison";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		828868E2199984AD0044DA96 /* atlas-comparison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "atlas-comparison.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828868E5199984AD0044DA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		828868E7199984AD0044DA96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		828868E9199984AD0044DA96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		828868EB199984AD0044DA96 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		828868EF199984AD0044DA96 /* atlas-comparison-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "atlas-comparison-Info.plist"; sourceTree = "<group>"; };
+		828868F1199984AD0044DA96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		828868F3199984AD0044DA96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		828868F5199984AD0044DA96 /* atlas-comparison-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "atlas-comparison-Prefix.pch"; sourceTree = "<group>"; };
+		828868F6199984AD0044DA96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		828868F7199984AD0044DA96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		828868FA199984AD0044DA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		828868FD199984AD0044DA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		828868FF199984AD0044DA96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		82886900199984AD0044DA96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		82886902199984AD0044DA96 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MyScene.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		82886903199984AD0044DA96 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		82886905199984AD0044DA96 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		82886907199984AD0044DA96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8288690D199984AE0044DA96 /* atlas-comparisonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "atlas-comparisonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8288690E199984AE0044DA96 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82886916199984AE0044DA96 /* atlas-comparisonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "atlas-comparisonTests-Info.plist"; sourceTree = "<group>"; };
+		82886918199984AE0044DA96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8288691A199984AE0044DA96 /* atlas_comparisonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = atlas_comparisonTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		828869261999860F0044DA96 /* ring.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ring.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828868DF199984AD0044DA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828868E8199984AD0044DA96 /* CoreGraphics.framework in Frameworks */,
+				828868EA199984AD0044DA96 /* UIKit.framework in Frameworks */,
+				828868EC199984AD0044DA96 /* SpriteKit.framework in Frameworks */,
+				828868E6199984AD0044DA96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8288690A199984AE0044DA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8288690F199984AE0044DA96 /* XCTest.framework in Frameworks */,
+				82886911199984AE0044DA96 /* UIKit.framework in Frameworks */,
+				82886910199984AE0044DA96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828868D9199984AD0044DA96 = {
+			isa = PBXGroup;
+			children = (
+				828868ED199984AD0044DA96 /* atlas-comparison */,
+				82886914199984AE0044DA96 /* atlas-comparisonTests */,
+				828868E4199984AD0044DA96 /* Frameworks */,
+				828868E3199984AD0044DA96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828868E3199984AD0044DA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828868E2199984AD0044DA96 /* atlas-comparison.app */,
+				8288690D199984AE0044DA96 /* atlas-comparisonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828868E4199984AD0044DA96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828868E5199984AD0044DA96 /* Foundation.framework */,
+				828868E7199984AD0044DA96 /* CoreGraphics.framework */,
+				828868E9199984AD0044DA96 /* UIKit.framework */,
+				828868EB199984AD0044DA96 /* SpriteKit.framework */,
+				8288690E199984AE0044DA96 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828868ED199984AD0044DA96 /* atlas-comparison */ = {
+			isa = PBXGroup;
+			children = (
+				828869261999860F0044DA96 /* ring.atlas */,
+				828868F6199984AD0044DA96 /* AppDelegate.h */,
+				828868F7199984AD0044DA96 /* AppDelegate.m */,
+				828868F9199984AD0044DA96 /* Main_iPhone.storyboard */,
+				828868FC199984AD0044DA96 /* Main_iPad.storyboard */,
+				828868FF199984AD0044DA96 /* ViewController.h */,
+				82886900199984AD0044DA96 /* ViewController.m */,
+				82886902199984AD0044DA96 /* MyScene.h */,
+				82886903199984AD0044DA96 /* MyScene.m */,
+				82886905199984AD0044DA96 /* Spaceship.png */,
+				82886907199984AD0044DA96 /* Images.xcassets */,
+				828868EE199984AD0044DA96 /* Supporting Files */,
+			);
+			path = "atlas-comparison";
+			sourceTree = "<group>";
+		};
+		828868EE199984AD0044DA96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828868EF199984AD0044DA96 /* atlas-comparison-Info.plist */,
+				828868F0199984AD0044DA96 /* InfoPlist.strings */,
+				828868F3199984AD0044DA96 /* main.m */,
+				828868F5199984AD0044DA96 /* atlas-comparison-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82886914199984AE0044DA96 /* atlas-comparisonTests */ = {
+			isa = PBXGroup;
+			children = (
+				8288691A199984AE0044DA96 /* atlas_comparisonTests.m */,
+				82886915199984AE0044DA96 /* Supporting Files */,
+			);
+			path = "atlas-comparisonTests";
+			sourceTree = "<group>";
+		};
+		82886915199984AE0044DA96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82886916199984AE0044DA96 /* atlas-comparisonTests-Info.plist */,
+				82886917199984AE0044DA96 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		828868E1199984AD0044DA96 /* atlas-comparison */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8288691E199984AE0044DA96 /* Build configuration list for PBXNativeTarget "atlas-comparison" */;
+			buildPhases = (
+				828868DE199984AD0044DA96 /* Sources */,
+				828868DF199984AD0044DA96 /* Frameworks */,
+				828868E0199984AD0044DA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "atlas-comparison";
+			productName = "atlas-comparison";
+			productReference = 828868E2199984AD0044DA96 /* atlas-comparison.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8288690C199984AE0044DA96 /* atlas-comparisonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82886921199984AE0044DA96 /* Build configuration list for PBXNativeTarget "atlas-comparisonTests" */;
+			buildPhases = (
+				82886909199984AE0044DA96 /* Sources */,
+				8288690A199984AE0044DA96 /* Frameworks */,
+				8288690B199984AE0044DA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82886913199984AE0044DA96 /* PBXTargetDependency */,
+			);
+			name = "atlas-comparisonTests";
+			productName = "atlas-comparisonTests";
+			productReference = 8288690D199984AE0044DA96 /* atlas-comparisonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828868DA199984AD0044DA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Prototypical Monkeys";
+				TargetAttributes = {
+					8288690C199984AE0044DA96 = {
+						TestTargetID = 828868E1199984AD0044DA96;
+					};
+				};
+			};
+			buildConfigurationList = 828868DD199984AD0044DA96 /* Build configuration list for PBXProject "atlas-comparison" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 828868D9199984AD0044DA96;
+			productRefGroup = 828868E3199984AD0044DA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828868E1199984AD0044DA96 /* atlas-comparison */,
+				8288690C199984AE0044DA96 /* atlas-comparisonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828868E0199984AD0044DA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82886906199984AD0044DA96 /* Spaceship.png in Resources */,
+				82886908199984AD0044DA96 /* Images.xcassets in Resources */,
+				828868FE199984AD0044DA96 /* Main_iPad.storyboard in Resources */,
+				828869271999860F0044DA96 /* ring.atlas in Resources */,
+				828868FB199984AD0044DA96 /* Main_iPhone.storyboard in Resources */,
+				828868F2199984AD0044DA96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8288690B199984AE0044DA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82886919199984AE0044DA96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828868DE199984AD0044DA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82886904199984AD0044DA96 /* MyScene.m in Sources */,
+				82886901199984AD0044DA96 /* ViewController.m in Sources */,
+				828868F8199984AD0044DA96 /* AppDelegate.m in Sources */,
+				828868F4199984AD0044DA96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82886909199984AE0044DA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8288691B199984AE0044DA96 /* atlas_comparisonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82886913199984AE0044DA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 828868E1199984AD0044DA96 /* atlas-comparison */;
+			targetProxy = 82886912199984AE0044DA96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		828868F0199984AD0044DA96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828868F1199984AD0044DA96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		828868F9199984AD0044DA96 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828868FA199984AD0044DA96 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		828868FC199984AD0044DA96 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828868FD199984AD0044DA96 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		82886917199984AE0044DA96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82886918199984AE0044DA96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8288691C199984AE0044DA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8288691D199984AE0044DA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8288691F199984AE0044DA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "atlas-comparison/atlas-comparison-Prefix.pch";
+				INFOPLIST_FILE = "atlas-comparison/atlas-comparison-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82886920199984AE0044DA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "atlas-comparison/atlas-comparison-Prefix.pch";
+				INFOPLIST_FILE = "atlas-comparison/atlas-comparison-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82886922199984AE0044DA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/atlas-comparison.app/atlas-comparison";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "atlas-comparison/atlas-comparison-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "atlas-comparisonTests/atlas-comparisonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82886923199984AE0044DA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/atlas-comparison.app/atlas-comparison";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "atlas-comparison/atlas-comparison-Prefix.pch";
+				INFOPLIST_FILE = "atlas-comparisonTests/atlas-comparisonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828868DD199984AD0044DA96 /* Build configuration list for PBXProject "atlas-comparison" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8288691C199984AE0044DA96 /* Debug */,
+				8288691D199984AE0044DA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8288691E199984AE0044DA96 /* Build configuration list for PBXNativeTarget "atlas-comparison" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8288691F199984AE0044DA96 /* Debug */,
+				82886920199984AE0044DA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82886921199984AE0044DA96 /* Build configuration list for PBXNativeTarget "atlas-comparisonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82886922199984AE0044DA96 /* Debug */,
+				82886923199984AE0044DA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828868DA199984AD0044DA96 /* Project object */;
+}
